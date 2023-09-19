@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Test_ARM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Test_ARM" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="95.429 ns"></ZoomEndTime>
+      <Cursor1Time time="150.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group88" type="group">
+      <obj_property name="label">Test_ARM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/en_ARM" type="logic">
+         <obj_property name="ElementShortName">en_ARM</obj_property>
+         <obj_property name="ObjectShortName">en_ARM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/switch" type="array">
+         <obj_property name="ElementShortName">switch[7:0]</obj_property>
+         <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/PC" type="array">
+         <obj_property name="ElementShortName">PC[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/Instr" type="array">
+         <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/Clk_period" type="other">
+         <obj_property name="ElementShortName">Clk_period</obj_property>
+         <obj_property name="ObjectShortName">Clk_period</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group176" type="group">
+      <obj_property name="label">ARM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Test_ARM/uut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/en_ARM" type="logic">
+         <obj_property name="ElementShortName">en_ARM</obj_property>
+         <obj_property name="ObjectShortName">en_ARM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/Switch" type="array">
+         <obj_property name="ElementShortName">Switch[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Switch[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/PC" type="array">
+         <obj_property name="ElementShortName">PC[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/Instr" type="array">
+         <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/ALUFlags" type="array">
+         <obj_property name="ElementShortName">ALUFlags[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUFlags[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/RegSrc" type="array">
+         <obj_property name="ElementShortName">RegSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RegSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/ImmSrc" type="array">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/InstrSig" type="array">
+         <obj_property name="ElementShortName">InstrSig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrSig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/DM_WE" type="logic">
+         <obj_property name="ElementShortName">DM_WE</obj_property>
+         <obj_property name="ObjectShortName">DM_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/DM_Addr" type="array">
+         <obj_property name="ElementShortName">DM_Addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">DM_Addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/DataAddr" type="array">
+         <obj_property name="ElementShortName">DataAddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DataAddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/PCsig" type="array">
+         <obj_property name="ElementShortName">PCsig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCsig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/IM_addr_width" type="other">
+         <obj_property name="ElementShortName">IM_addr_width</obj_property>
+         <obj_property name="ObjectShortName">IM_addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/DM_addr_width" type="other">
+         <obj_property name="ElementShortName">DM_addr_width</obj_property>
+         <obj_property name="ObjectShortName">DM_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group177" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/Instr" type="array">
+         <obj_property name="ElementShortName">Instr[31:12]</obj_property>
+         <obj_property name="ObjectShortName">Instr[31:12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/ALUFlags" type="array">
+         <obj_property name="ElementShortName">ALUFlags[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUFlags[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/RegSrc" type="array">
+         <obj_property name="ElementShortName">RegSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RegSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/ImmSrc" type="array">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/FlagW" type="array">
+         <obj_property name="ElementShortName">FlagW[1:0]</obj_property>
+         <obj_property name="ObjectShortName">FlagW[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/PCS" type="logic">
+         <obj_property name="ElementShortName">PCS</obj_property>
+         <obj_property name="ObjectShortName">PCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/RegW" type="logic">
+         <obj_property name="ElementShortName">RegW</obj_property>
+         <obj_property name="ObjectShortName">RegW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_controller/MemW" type="logic">
+         <obj_property name="ElementShortName">MemW</obj_property>
+         <obj_property name="ObjectShortName">MemW</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group178" type="group">
+      <obj_property name="label">Datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/en_ARM" type="logic">
+         <obj_property name="ElementShortName">en_ARM</obj_property>
+         <obj_property name="ObjectShortName">en_ARM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/RegSrc" type="array">
+         <obj_property name="ElementShortName">RegSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RegSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ImmSrc" type="array">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/DM_WE" type="logic">
+         <obj_property name="ElementShortName">DM_WE</obj_property>
+         <obj_property name="ObjectShortName">DM_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/DM_Addr" type="array">
+         <obj_property name="ElementShortName">DM_Addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">DM_Addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ALUFlags" type="array">
+         <obj_property name="ElementShortName">ALUFlags[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUFlags[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/Instr" type="array">
+         <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ALUResult" type="array">
+         <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/InstrSig" type="array">
+         <obj_property name="ElementShortName">InstrSig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrSig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PCmux" type="array">
+         <obj_property name="ElementShortName">PCmux[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCmux[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PCsig" type="array">
+         <obj_property name="ElementShortName">PCsig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCsig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PCplus4" type="array">
+         <obj_property name="ElementShortName">PCplus4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCplus4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/PCplus8" type="array">
+         <obj_property name="ElementShortName">PCplus8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCplus8[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ExtImm" type="array">
+         <obj_property name="ElementShortName">ExtImm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ExtImm[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ShiftedImm24" type="array">
+         <obj_property name="ElementShortName">ShiftedImm24[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ShiftedImm24[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/RA1mux" type="array">
+         <obj_property name="ElementShortName">RA1mux[3:0]</obj_property>
+         <obj_property name="ObjectShortName">RA1mux[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/RA2mux" type="array">
+         <obj_property name="ElementShortName">RA2mux[3:0]</obj_property>
+         <obj_property name="ObjectShortName">RA2mux[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/SrcA" type="array">
+         <obj_property name="ElementShortName">SrcA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SrcA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/SrcB" type="array">
+         <obj_property name="ElementShortName">SrcB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SrcB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ALUResultSig" type="array">
+         <obj_property name="ElementShortName">ALUResultSig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultSig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/ReadDataSig" type="array">
+         <obj_property name="ElementShortName">ReadDataSig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataSig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/WriteDataSig" type="array">
+         <obj_property name="ElementShortName">WriteDataSig[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteDataSig[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/Result" type="array">
+         <obj_property name="ElementShortName">Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/RF_WE3" type="logic">
+         <obj_property name="ElementShortName">RF_WE3</obj_property>
+         <obj_property name="ObjectShortName">RF_WE3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/IM_addr_width" type="other">
+         <obj_property name="ElementShortName">IM_addr_width</obj_property>
+         <obj_property name="ObjectShortName">IM_addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/DM_addr_width" type="other">
+         <obj_property name="ElementShortName">DM_addr_width</obj_property>
+         <obj_property name="ObjectShortName">DM_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group179" type="group">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/WE3" type="logic">
+         <obj_property name="ElementShortName">WE3</obj_property>
+         <obj_property name="ObjectShortName">WE3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/A1" type="array">
+         <obj_property name="ElementShortName">A1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">A1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/A2" type="array">
+         <obj_property name="ElementShortName">A2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">A2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/A3" type="array">
+         <obj_property name="ElementShortName">A3[3:0]</obj_property>
+         <obj_property name="ObjectShortName">A3[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/WD3" type="array">
+         <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/R15" type="array">
+         <obj_property name="ElementShortName">R15[31:0]</obj_property>
+         <obj_property name="ObjectShortName">R15[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/RD1" type="array">
+         <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/RD2" type="array">
+         <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/RegFile" type="array">
+         <obj_property name="ElementShortName">RegFile[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">RegFile[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/data_size" type="other">
+         <obj_property name="ElementShortName">data_size</obj_property>
+         <obj_property name="ObjectShortName">data_size</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_Register_File/addr_size" type="other">
+         <obj_property name="ElementShortName">addr_size</obj_property>
+         <obj_property name="ObjectShortName">addr_size</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group180" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/Result" type="array">
+         <obj_property name="ElementShortName">Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/ALUFlags" type="array">
+         <obj_property name="ElementShortName">ALUFlags[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUFlags[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/result_sig" type="array">
+         <obj_property name="ElementShortName">result_sig[32:0]</obj_property>
+         <obj_property name="ObjectShortName">result_sig[32:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/sum_out" type="array">
+         <obj_property name="ElementShortName">sum_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/b_out" type="array">
+         <obj_property name="ElementShortName">b_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/co" type="logic">
+         <obj_property name="ElementShortName">co</obj_property>
+         <obj_property name="ObjectShortName">co</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/N" type="array">
+         <obj_property name="ElementShortName">N[31:0]</obj_property>
+         <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_ALU/data_size" type="other">
+         <obj_property name="ElementShortName">data_size</obj_property>
+         <obj_property name="ObjectShortName">data_size</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group190" type="group">
+      <obj_property name="label">imem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_imem/A" type="array">
+         <obj_property name="ElementShortName">A[8:0]</obj_property>
+         <obj_property name="ObjectShortName">A[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_imem/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_imem/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_imem/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_imem/Instr_MEM" type="array">
+         <obj_property name="ElementShortName">Instr_MEM[0:511][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_MEM[0:511][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group191" type="group">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/A" type="array">
+         <obj_property name="ElementShortName">A[8:0]</obj_property>
+         <obj_property name="ObjectShortName">A[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/Data_Mem" type="array">
+         <obj_property name="ElementShortName">Data_Mem[0:511][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Mem[0:511][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_ARM/uut/i_datapath/i_dmem/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

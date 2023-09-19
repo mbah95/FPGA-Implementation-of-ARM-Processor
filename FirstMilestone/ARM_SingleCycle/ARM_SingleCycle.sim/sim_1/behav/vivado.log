@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 12:57:50 2021
+# Process ID: 2732
+# Current directory: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22136 G:\Shared drives\EECE 351 Labs\Project\FirstMilestone\ARM_SingleCycle\ARM_SingleCycle.sim\sim_1\behav\Test_ARM_behav.wdb
+# Log file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/vivado.log
+# Journal file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {G:\Shared drives\EECE 351 Labs\Project\FirstMilestone\ARM_SingleCycle\ARM_SingleCycle.sim\sim_1\behav\Test_ARM_behav.wdb}
+ERROR: [Simtcl 6-118] Unable to locate wdb file 'G:\Shared drives\EECE 351 Labs\Project\FirstMilestone\ARM_SingleCycle\ARM_SingleCycle.sim\sim_1\behav\Test_ARM_behav.wdb'
+open_project {G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1127.051 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Test_ARM'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test_ARM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Test_ARM_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/xsim'
+"xelab -wto c394bc6a29d14d4a92d8511ee980cc1f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Test_ARM_behav xil_defaultlib.Test_ARM -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto c394bc6a29d14d4a92d8511ee980cc1f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Test_ARM_behav xil_defaultlib.Test_ARM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-8437] comparison between unequal length arrays always returns FALSE, left argument length 32 is different from right argument length 8 for 'std_logic_vector_93' array [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ALU.vhd:80]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_ARM_behav -key {Behavioral:sim_1:Functional:Test_ARM} -tclbatch {Test_ARM.tcl} -view {{G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/Test_ARM_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Could not open the HDL type file xsim.dir/Test_ARM_behav/xsim.type
+ERROR: [Simtcl 6-50] Simulation engine failed to start: The Simulation shut down unexpectedly during initialization.
+Please see the Tcl Console or the Messages for details.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 15 13:04:45 2021...

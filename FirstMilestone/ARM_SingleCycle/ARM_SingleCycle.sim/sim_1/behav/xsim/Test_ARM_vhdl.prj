@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../ALU.vhd" \
+"../../../../../ARM_SC/ARM_SC.vhd" \
+"../../../../../ARM_SC/ARM_SC_Cond_Logic.vhd" \
+"../../../../../ARM_SC/ARM_SC_Controller.vhd" \
+"../../../../../ARM_SC/ARM_SC_Data_Memory.vhd" \
+"../../../../../ARM_SC/ARM_SC_Datapath.vhd" \
+"../../../../../ARM_SC/ARM_SC_Decoder.vhd" \
+"../../../../../ARM_SC/ARM_SC_Instruction_Memory.vhd" \
+"../../../../../ARM_SC/ARM_SC_RegFile.vhd" \
+"../../../../ARM_SingleCycle.srcs/sim_1/new/Test_ARM.vhd" \
+
+# Do not sort compile order
+nosort

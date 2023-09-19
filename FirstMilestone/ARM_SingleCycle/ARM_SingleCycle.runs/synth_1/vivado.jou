@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 12:25:43 2021
+# Process ID: 17512
+# Current directory: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1
+# Command line: vivado.exe -log ARM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ARM.tcl
+# Log file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1/ARM.vds
+# Journal file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ARM.tcl -notrace

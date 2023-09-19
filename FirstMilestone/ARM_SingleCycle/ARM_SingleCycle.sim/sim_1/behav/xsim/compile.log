@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ARM'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Cond_Logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Data_Memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Data_Memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Instruction_Memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_RegFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Register_File'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.srcs/sim_1/new/Test_ARM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Test_ARM'

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 12:57:50 2021
+# Process ID: 2732
+# Current directory: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22136 G:\Shared drives\EECE 351 Labs\Project\FirstMilestone\ARM_SingleCycle\ARM_SingleCycle.sim\sim_1\behav\Test_ARM_behav.wdb
+# Log file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav/vivado.log
+# Journal file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.sim/sim_1/behav\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {G:\Shared drives\EECE 351 Labs\Project\FirstMilestone\ARM_SingleCycle\ARM_SingleCycle.sim\sim_1\behav\Test_ARM_behav.wdb}
+open_project {G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.xpr}
+update_compile_order -fileset sources_1
+launch_simulation

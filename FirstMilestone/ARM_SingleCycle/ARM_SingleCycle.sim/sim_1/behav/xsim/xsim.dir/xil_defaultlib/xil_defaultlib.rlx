@@ -1,0 +1,14 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ALU.vhd,1637000369,vhdl,,,,alu,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd,1636226510,vhdl,,,,arm,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd,1636226542,vhdl,,,,cond_logic,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd,1636226522,vhdl,,,,controller,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Data_Memory.vhd,1636226568,vhdl,,,,data_memory,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd,1636226938,vhdl,,,,datapath,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Decoder.vhd,1636226532,vhdl,,,,decoder,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd,1636400991,vhdl,,,,instruction_memory,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_RegFile.vhd,1636997836,vhdl,,,,register_file,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.srcs/sim_1/new/Test_ARM.vhd,1636398944,vhdl,,,,test_arm,,,,,,,,

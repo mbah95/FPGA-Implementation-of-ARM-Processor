@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 12:25:43 2021
+# Process ID: 17512
+# Current directory: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1
+# Command line: vivado.exe -log ARM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ARM.tcl
+# Log file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1/ARM.vds
+# Journal file: G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SingleCycle/ARM_SingleCycle.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ARM.tcl -notrace
+Command: synth_design -top ARM -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2848
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1123.770 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ARM' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd:34]
+INFO: [Synth 8-3491] module 'controller' declared at 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd:23' bound to instance 'i_controller' of component 'controller' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'controller' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd:36]
+INFO: [Synth 8-3491] module 'Decoder' declared at 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Decoder.vhd:24' bound to instance 'i_Decoder' of component 'Decoder' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Decoder.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Decoder.vhd:39]
+INFO: [Synth 8-3491] module 'Cond_Logic' declared at 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd:23' bound to instance 'i_Cond_Logic' of component 'Cond_Logic' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'Cond_Logic' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'Cond_Logic' (2#1) [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'controller' (3#1) [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Controller.vhd:36]
+INFO: [Synth 8-3491] module 'datapath' declared at 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd:24' bound to instance 'i_datapath' of component 'datapath' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'datapath' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd:45]
+	Parameter IM_addr_width bound to: 9 - type: integer 
+	Parameter DM_addr_width bound to: 9 - type: integer 
+	Parameter data_width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'Instruction_Memory' declared at 'G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd:26' bound to instance 'i_imem' of component 'Instruction_Memory' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Memory' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd:32]
+	Parameter data_width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 9 - type: integer 
+ERROR: [Synth 8-3302] unable to open file '../../../../program.txt' in 'r' mode [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd:42]
+ERROR: [Synth 8-421] mismatched array sizes in rhs and lhs of assignment [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd:63]
+ERROR: [Synth 8-285] failed synthesizing module 'Instruction_Memory' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd:32]
+ERROR: [Synth 8-285] failed synthesizing module 'datapath' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC_Datapath.vhd:45]
+ERROR: [Synth 8-285] failed synthesizing module 'ARM' [G:/Shared drives/EECE 351 Labs/Project/FirstMilestone/ARM_SC/ARM_SC.vhd:34]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1123.770 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 15 12:25:54 2021...
