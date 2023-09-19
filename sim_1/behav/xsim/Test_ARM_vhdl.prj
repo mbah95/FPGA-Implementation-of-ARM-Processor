@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ALU.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Controller.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Datapath.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Decoder.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd" \
+"../../../../ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_RegFile.vhd" \
+"../../../../../ARM_SingleCycle/ARM_SingleCycle.srcs/sim_1/new/Test_ARM.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ALU.vhd,1637000381,vhdl,,,,alu,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC.vhd,1638584415,vhdl,,,,arm,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd,1638583174,vhdl,,,,cond_logic,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Controller.vhd,1638583613,vhdl,,,,controller,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Datapath.vhd,1638584977,vhdl,,,,datapath,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Decoder.vhd,1638582389,vhdl,,,,decoder,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd,1638572743,vhdl,,,,instruction_memory,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_Multi_Cycle/ARM_Multi_Cycle.srcs/sources_1/imports/SecondMilestone/ARM_SC/ARM_SC_RegFile.vhd,1636997845,vhdl,,,,register_file,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/SecondMilestone/ARM_SingleCycle/ARM_SingleCycle.srcs/sim_1/new/Test_ARM.vhd,1636398950,vhdl,,,,test_arm,,,,,,,,
