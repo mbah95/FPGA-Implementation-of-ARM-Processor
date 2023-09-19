@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Dec 15 06:57:11 2021
+# Process ID: 19328
+# Current directory: G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9136 G:\Shared drives\EECE 351 Labs\Project\ThirdMilestone\ARM_MultiCycleExpandedInst\ARM_MultiCycleExpandedInst.xpr
+# Log file: G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst/vivado.log
+# Journal file: G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst/ARM_MultiCycleExpandedInst.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleWithExpandedInst/Test_ARM_behav.wcfg}
+source Test_ARM.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleWithExpandedInst/Test_ARM_behav.wcfg}
+source Test_ARM.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleWithExpandedInst/Test_ARM_behav.wcfg}
+source Test_ARM.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleWithExpandedInst/Test_ARM_behav.wcfg}
+source Test_ARM.tcl
+restart
+run 500 ns
+close_sim
+launch_simulation
+open_wave_config {G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleWithExpandedInst/Test_ARM_behav.wcfg}
+source Test_ARM.tcl
+close_sim

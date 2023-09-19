@@ -1,0 +1,15 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ALU.vhd,1639552057,vhdl,,,,alu,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst/ARM_MultiCycleExpandedInst.srcs/sim_1/new/Test_ARM.vhd,1639557603,vhdl,,,,test_arm,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst/ARM_MultiCycleExpandedInst.srcs/sources_1/new/Multi_Barrel_Shifter.vhd,1639615870,vhdl,,,,multi_barrel_shifter,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_MultiCycleExpandedInst/ARM_MultiCycleExpandedInst.srcs/sources_1/new/Shift_Block.vhd,1639616002,vhdl,,,,shift_block,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC.vhd,1639624249,vhdl,,,,arm,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_Cond_Logic.vhd,1639562436,vhdl,,,,cond_logic,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_Controller.vhd,1639623595,vhdl,,,,controller,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_Datapath.vhd,1639624514,vhdl,,,,datapath,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_Decoder.vhd,1639619061,vhdl,,,,decoder,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_Instruction_Memory.vhd,1639624890,vhdl,,,,instruction_memory,,,,,,,,
+G:/Shared drives/EECE 351 Labs/Project/ThirdMilestone/ARM_SC/ARM_SC_RegFile.vhd,1636997845,vhdl,,,,register_file,,,,,,,,

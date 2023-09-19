@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1643520658">
+  <File Type="ROUTE-PWR" Name="ARM_TopLevel_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ARM_TopLevel.tcl"/>
+  <File Type="BITSTR-MMI" Name="ARM_TopLevel.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ARM_TopLevel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ARM_TopLevel_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ARM_TopLevel_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ARM_TopLevel_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="ARM_TopLevel_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ARM_TopLevel_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ARM_TopLevel_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ARM_TopLevel.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ARM_TopLevel_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ARM_TopLevel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ARM_TopLevel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ARM_TopLevel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ARM_TopLevel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ARM_TopLevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ARM_TopLevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ARM_TopLevel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ARM_TopLevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ARM_TopLevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ARM_TopLevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="ARM_TopLevel.bin"/>
+  <File Type="PLACE-TIMING" Name="ARM_TopLevel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ARM_TopLevel_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ARM_TopLevel.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ARM_TopLevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ARM_TopLevel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ARM_TopLevel_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="ARM_TopLevel.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="ARM_TopLevel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ARM_TopLevel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ARM_TopLevel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ARM_TopLevel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ARM_TopLevel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ARM_TopLevel_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ARM_TopLevel_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ARM_TopLevel_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ARM_TopLevel_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ARM_TopLevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ARM_TopLevel_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ARM_TopLevel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ARM_TopLevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ARM_TopLevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ARM_TopLevel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ARM_TopLevel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ARM_TopLevel_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ARM_TopLevel_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ARM_TopLevel_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ARM_TopLevel_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ARM_TopLevel_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ARM_TopLevel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ARM_TopLevel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ARM_TopLevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ARM_TopLevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ARM_TopLevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ARM_TopLevel_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="ARM_TopLevel.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ARM_TopLevel_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ARM_TopLevel_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="ARM_TopLevel.nky"/>
+  <File Type="BITSTR-BMM" Name="ARM_TopLevel_bd.bmm"/>
+  <File Type="PDI-FILE" Name="ARM_TopLevel.pdi"/>
+  <File Type="RCFI_FILE" Name="ARM_TopLevel.rcfi"/>
+  <File Type="CFI_FILE" Name="ARM_TopLevel.cfi"/>
+  <File Type="RNPI_FILE" Name="ARM_TopLevel.rnpi"/>
+  <File Type="NPI_FILE" Name="ARM_TopLevel.npi"/>
+  <File Type="RBD_FILE" Name="ARM_TopLevel.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ARM_TopLevel.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ARM_TopLevel.sysdef"/>
+  <File Type="BG-BGN" Name="ARM_TopLevel.bgn"/>
+  <File Type="BG-DRC" Name="ARM_TopLevel.drc"/>
+  <File Type="RDI-RDI" Name="ARM_TopLevel.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../ALU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_TopLevel/ARM_Control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_Cond_Logic.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_Datapath.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_Instruction_Memory.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_SC/ARM_SC_RegFile.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../HEXon7segDisp.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Multi_Barrel_Shifter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Shift_Block.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_TopLevel/debounce.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ARM_TopLevel/ARM_TopLevel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ARM_TopLevel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../ARM_TopLevel/ARM_Processor_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
